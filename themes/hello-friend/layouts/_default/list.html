@@ -8,15 +8,23 @@
     <div class="post on-list">
       <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
       <div class="post-meta">
+        {{ if .Params.categories }}
+          <span class="post-categories">
+            {{ range .Params.categories }}
+              [<a href="{{ (urlize (printf "categories/%s" . )) | absURL }}/">{{ . }}</a>]&nbsp;
+            {{ end }}
+          </span>
+        {{ end }}
+
         <span class="post-date">
-          {{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}
+          {{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}&nbsp
         </span>
+
         {{ with .Params.Author }}<span class="post-author">— {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span>{{ end }}
         {{ if $.Site.Params.ShowReadingTime }}
           <span class="post-read-time">— {{ .ReadingTime }} {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span>
         {{ end }}
       </div>
-
 
       {{ if .Params.tags }}
         <span class="post-tags">
@@ -28,9 +36,9 @@
 
       {{ if .Params.Cover }}
         {{ if .Params.UseRelativeCover }}
-          <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" class="post-cover" />
+          <a href="{{ .Permalink }}"><img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" class="post-cover" /></a>
         {{ else }}
-          <img src="{{ (urlize .Params.Cover | absURL) }}" class="post-cover" />
+          <a href="{{ .Permalink }}"><img src="{{ (urlize .Params.Cover | absURL) }}" class="post-cover" /></a>
         {{ end }}
       {{ end }}
 

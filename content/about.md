@@ -1,6 +1,14 @@
 ---
 title: "About me"
-date: 2019-05-04T00:29:16+02:00
 ---
 
-## empty post.
+## My name is Clément Fazilleau
+
+I'm a game programming student at ISART digital.
+
+This website is in construction.
+
+please stand by.
+
+bye.
+ 

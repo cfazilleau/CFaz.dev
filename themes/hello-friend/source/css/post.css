@@ -3,7 +3,7 @@
   max-width: 800px;
   text-align: left;
   padding: 20px;
-  margin: 20px auto;
+  margin: 10px auto;
 
   @media (--tablet) {
     max-width: 660px;
@@ -20,15 +20,21 @@
   &-meta {
     font-size: 1rem;
     margin-bottom: 10px;
+    display: flex; 
+    flex-direction: row;
 
     @media (--phone) {
       font-size: .85rem;
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 
   &-title {
     font-size: 2.625rem;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
 
     @media (--phone) {
       font-size: 2rem;
@@ -51,19 +57,25 @@
   }
 
   &-content {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   &-cover {
     border-radius: 8px;
-    margin: 40px -50px;
+    margin: 20px -50px;
     width: 860px;
     max-width: 860px;
     box-shadow: 0 12px 40px rgba(0, 0, 0, .15);
 
+    /* center and crop the image*/
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+
     @media (--tablet) {
-      margin: 20px 0;
+      margin: 10px 0;
       width: 100%;
+      height: 150px;
     }
   }
 }
