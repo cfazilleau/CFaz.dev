@@ -28,6 +28,6 @@ In this game you'll play as a wizard in a temple, and waves of characters will c
 You'll have to either kill them (if they're enemies) or heal them (if they're your friends).
 Each action you take will increase or decrease your life bar.
 
-Be careful, the spawning  rate of enemies spawning will increase with time !
+Be careful, the spawning rate of enemies spawning will increase with time !
 
 <br/><div align="center"><iframe src="https://itch.io/embed/62027" height="167" width="552" frameborder="0"></iframe></div>
