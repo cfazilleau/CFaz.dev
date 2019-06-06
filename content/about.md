@@ -1,5 +1,6 @@
 ---
 title: "About me"
+draft: false
 ---
 
 ## My name is Clément Fazilleau
