@@ -1,11 +1,11 @@
 ---
 title: "Heal Or Kill"
 date: 2016-04-24
-author: "CFazilleau"
-draft: false
+author: "Clément Fazilleau"
+draft: true
 categories: [ "Project" ]
 tags: [ game, jam ]
-description: Heal Or Kill
+description: The first game I made.
 cover: "cover.gif"
 useRelativeCover: true
 ---
@@ -18,7 +18,7 @@ is the first game I made (it's not quite right, in fact, I made a lot of prototy
 
 -------------
 
-I made it when I was 16 years old, for the itch.io game jam "[Low Rez Jam](https://itch.io/jam/lowrezjam2016)" where the goal was to make a game with a maximum resolution of 64x64 pixels. 
+I made it when I was 16 years old, for the itch.io game jam "[Low Rez Jam](https://itch.io/jam/lowrezjam2016)" where the goal was to make a game with a maximum resolution of 64x64 pixels.
 
 This was quite challenging, especially because I never really used unity before, but I really enjoyed doing it and I learnt a lot of things from this.
 
