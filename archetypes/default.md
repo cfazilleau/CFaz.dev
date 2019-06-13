@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author: "CFazilleau"
-draft: false
+author: "Clément Fazilleau"
+draft: true
 categories: [] #"Project"
 tags: []
 description: {{ .Name }}

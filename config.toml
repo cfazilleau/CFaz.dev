@@ -1,5 +1,4 @@
 baseurl = "/"
-languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
 
@@ -17,6 +16,7 @@ paginate = 5
 
 [languages]
   [languages.en]
+    LanguageName = "English"
     title = "CFazilleau"
     subtitle = "A simple blog for my projects"
     keywords = ""
@@ -48,3 +48,37 @@ paginate = 5
         identifier = "projects"
         name = "Projects"
         url = "/categories/project/"
+
+  [languages.fr]
+    LanguageName = "Français"
+    title = "CFazilleau"
+    subtitle = "Un simple blog pour mes projets"
+    keywords = ""
+    copyright = "Clément Fazilleau"
+    menuMore = "Voir plus"
+    writtenBy = "Rédigé par"
+    readMore = "Lire plus"
+    readOtherPosts = "Voir les autres posts"
+    newerPosts = "posts plus récents"
+    olderPosts = "posts plus anciens"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "02-01-2006"
+    dateFormatList = "02-01-2006"
+
+    [languages.fr.params.logo]
+      logoText = "CFazilleau"
+      logoHomeLink = "/fr/"
+
+    [languages.fr.menu]
+      [[languages.fr.menu.main]]
+        identifier = "derniers"
+        name = "Derniers Posts"
+        url = "/fr/post/"
+      [[languages.fr.menu.main]]
+        identifier = "apropos"
+        name = "À propos"
+        url = "/fr/about/"
+      [[languages.fr.menu.main]]
+        identifier = "projets"
+        name = "Projets"
+        url = "/fr/categories/project/"
