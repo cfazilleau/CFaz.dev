@@ -1,84 +1,82 @@
 baseurl = "/"
 theme = "hello-friend"
-paginate = 5
+languageCode = "en-us"
+paginate = 15
 
 #https://github.com/panr/hugo-theme-hello-friend/
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "post"
-  # "light" or "dark"
-  defaultTheme = "dark"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
-  # Show reading time in minutes for posts
-  showReadingTime = false
+	defaultTheme = "dark"
+	showMenuItems = 3
+	showReadingTime = false
+
+	[[params.social]]
+		name = "itchio"
+		url = "https://cfazilleau.itch.io/"
+	
+	[[params.social]]
+		name = "linkedin" 
+		url = "https://www.linkedin.com/in/clement-f/"
+		
+	[[params.social]]
+		name = "mail"
+		url = "mailto:faz.cle@example.com"
 
 [languages]
-  [languages.en]
-    LanguageName = "English"
-    title = "CFazilleau"
-    subtitle = "A simple blog for my projects"
-    keywords = ""
-    copyright = "Clément Fazilleau"
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+	[languages.en]
+		LanguageName = "English"
+		title = "CFazilleau"
+		subtitle = "A simple blog for my projects"
+		keywords = ""
+		copyright = "Clément Fazilleau"
+		menuMore = "Show more"
+		writtenBy = "Written by"
+		readMore = "Read more"
+		readOtherPosts = "Read other posts"
+		newerPosts = "Newer posts"
+		olderPosts = "Older posts"
+		minuteReadingTime = "min read"
+		dateFormatSingle = "2006-01-02"
+		dateFormatList = "2006-01-02"
 
-    [languages.en.params.logo]
-      logoText = "CFazilleau"
-      logoHomeLink = "/"
+		[languages.en.params.logo]
+			logoText = "CFazilleau"
+			logoHomeLink = "/"
+		[languages.en.menu]
+			[[languages.en.menu.main]]
+				identifier = "latest"
+				name = "Latest Posts"
+				url = "/post/"
+			[[languages.en.menu.main]]
+				identifier = "projects"
+				name = "Projects"
+				url = "/categories/project/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "latest"
-        name = "Latest Posts"
-        url = "/post/"
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About Me"
-        url = "/about/"
-      [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/categories/project/"
+	[languages.fr]
+		LanguageName = "Français"
+		title = "CFazilleau"
+		subtitle = "Un simple blog pour mes projets"
+		keywords = ""
+		copyright = "Clément Fazilleau"
+		menuMore = "Voir plus"
+		writtenBy = "Rédigé par"
+		readMore = "Lire plus"
+		readOtherPosts = "Voir les autres posts"
+		newerPosts = "posts plus récents"
+		olderPosts = "posts plus anciens"
+		minuteReadingTime = "min read"
+		dateFormatSingle = "02-01-2006"
+		dateFormatList = "02-01-2006"
 
-  [languages.fr]
-    LanguageName = "Français"
-    title = "CFazilleau"
-    subtitle = "Un simple blog pour mes projets"
-    keywords = ""
-    copyright = "Clément Fazilleau"
-    menuMore = "Voir plus"
-    writtenBy = "Rédigé par"
-    readMore = "Lire plus"
-    readOtherPosts = "Voir les autres posts"
-    newerPosts = "posts plus récents"
-    olderPosts = "posts plus anciens"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "02-01-2006"
-    dateFormatList = "02-01-2006"
-
-    [languages.fr.params.logo]
-      logoText = "CFazilleau"
-      logoHomeLink = "/fr/"
-
-    [languages.fr.menu]
-      [[languages.fr.menu.main]]
-        identifier = "derniers"
-        name = "Derniers Posts"
-        url = "/fr/post/"
-      [[languages.fr.menu.main]]
-        identifier = "apropos"
-        name = "À propos"
-        url = "/fr/about/"
-      [[languages.fr.menu.main]]
-        identifier = "projets"
-        name = "Projets"
-        url = "/fr/categories/project/"
+		[languages.fr.params.logo]
+			logoText = "CFazilleau"
+			logoHomeLink = "/fr/"
+		[languages.fr.menu]
+			[[languages.fr.menu.main]]
+				identifier = "derniers"
+				name = "Derniers Posts"
+				url = "/fr/post/"
+			[[languages.fr.menu.main]]
+				identifier = "projets"
+				name = "Projets"
+				url = "/fr/categories/project/"
