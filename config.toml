@@ -11,12 +11,14 @@ paginate = 5
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 4
   # Show reading time in minutes for posts
   showReadingTime = false
 
 [languages]
   [languages.en]
+    languageName = "English" 
+    contentDir = "content/en"
     title = "CFazilleau"
     subtitle = "A simple blog for my projects"
     keywords = ""
@@ -35,12 +37,43 @@ paginate = 5
       logoText = "CFazilleau"
       logoHomeLink = "/"
 
-    [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about me"
-        name = "About me"
-        url = "/about"
+        identifier = "posts"
+        name = "Latest posts"
+        url = "/posts/"
+
       [[languages.en.menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/categories/project/"
+
+  [languages.fr]
+    languageName = "Francais"
+    contentDir = "content/fr"
+    title = "CFazilleau"
+    subtitle = "A simple blog for my projects"
+    keywords = ""
+    copyright = "Clément Fazilleau"
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.fr.params.logo]
+      logoText = "CFazilleau"
+      logoHomeLink = "/fr/"
+
+      [[languages.fr.menu.main]]
+        identifier = "posts"
+        name = "Derniers posts"
+        url = "/fr/posts/"
+
+      [[languages.fr.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/fr/categories/project/"
