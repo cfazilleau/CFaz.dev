@@ -75,5 +75,5 @@ paginate = 5
 
       [[languages.fr.menu.main]]
         identifier = "projects"
-        name = "Projects"
+        name = "Projets"
         url = "/fr/categories/project/"
