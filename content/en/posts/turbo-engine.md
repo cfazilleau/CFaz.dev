@@ -58,6 +58,8 @@ The Engine's Editor is made using Qt 5.13
 
 ![Editor peek](cover.png)
 
+{{<zooom src="cover.png">}}
+
 ------
 
 <div align="center">by Gregoire PENON, Basile COMBET, Julien SOYSOUVANH and Clément FAZILLEAU</div>
