@@ -6,10 +6,10 @@ draft: false
 categories: [ "Project" ]
 tags: []
 description: A small mobile game made as a math project
-cover: "cover.jpg"
-useRelativeCover: true
+cover: "/posts/slide-slide-little-penguin/cover.jpg"
+useRelativeCover: false
 ---
 
-FRENCH ARTICLE
+//TODO
 
-![editor](editor.png)
+![editor](/posts/slide-slide-little-penguin/editor.png)

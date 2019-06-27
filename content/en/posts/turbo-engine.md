@@ -2,7 +2,7 @@
 title: "Turbo Engine"
 date: 2019-06-06
 author: "Clément Fazilleau"
-draft: true
+draft: false
 categories: [ "Project" ]
 tags: []
 description: turbo Engine
@@ -10,7 +10,8 @@ cover: "cover.png"
 useRelativeCover: true
 ---
 
-## Turbo Engine 
+## Turbo Engine
+
 is a game engine developped as a student project by Clément Fazilleau, Basile Combet, Julien Soysouvanh and Gregoire Penon.
 
 It is written in C++ and python.
