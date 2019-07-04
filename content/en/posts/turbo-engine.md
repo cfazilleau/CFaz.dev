@@ -6,8 +6,6 @@ draft: false
 categories: [ "Project" ]
 tags: []
 description: turbo Engine
-cover: "cover.png"
-useRelativeCover: true
 ---
 
 ## Turbo Engine

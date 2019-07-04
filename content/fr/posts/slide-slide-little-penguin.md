@@ -6,8 +6,6 @@ draft: false
 categories: [ "Project" ]
 tags: []
 description: A small mobile game made as a math project
-cover: "/posts/slide-slide-little-penguin/cover.jpg"
-useRelativeCover: false
 ---
 
 //TODO

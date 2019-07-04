@@ -6,8 +6,6 @@ draft: true
 categories: [] #"Project"
 tags: []
 description: {{ .Name }}
-cover: "cover.png"
-useRelativeCover: true
 ---
 
 ## empty post.

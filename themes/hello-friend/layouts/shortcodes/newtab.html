@@ -1,0 +1,5 @@
+{{ if .Get "href"}}
+{{ if .Get "text"}}
+<a href="{{ .Get "href" | safeURL }}" target="_blank">{{ .Get "text" }}</a>
+{{ end }}
+{{ end }}

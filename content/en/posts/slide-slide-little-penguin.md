@@ -6,8 +6,6 @@ draft: false
 categories: [ "Project" ]
 tags: []
 description: A small mobile game made as a math project
-cover: "cover.jpg"
-useRelativeCover: true
 ---
 
 This game has been made as a math project.
