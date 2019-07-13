@@ -9,6 +9,6 @@ I am a student in gaming programming at {{< newtab href="https://www.isart.com/e
 
 Passionate about programming and video games since my childhood, I always wanted to work in this domain.
 
-On this site, you can find information about me, my projects and my thoughts on game programming.
+On this site, you can find information about my game and programming projects.
 
 ### Do not hesitate to contact me!

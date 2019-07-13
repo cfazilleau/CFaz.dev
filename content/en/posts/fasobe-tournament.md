@@ -6,7 +6,6 @@ draft: true
 categories: [ "Project" ]
 tags: []
 description: fasobe-tournament
-
 ---
 
 ![pic1](pic1.png)
