@@ -95,12 +95,14 @@ Indicates the physics of the object (Collider, Rigidbody ...)
 
 - The components "Behavior"
 
-Which serve to give a behavior to the object.
+Which are used to give a behavior to the object.
 
-{{< zooom src="/turbo-engine/types.png" >}}
-*The 4 horsemen of apocalypse*
+{{< zooom src="/turbo-engine/scripts.gif" >}}
 
-Some basic components exist in the engine, but an complete reflection system allows the user to create its own components in C ++ and compile and reload those scripts directly from the editor.
+Some basic components exist in the engine, but a complete reflection system allows the user to create its own components in C++ and compile and reload those scripts directly from the editor.
+
+{{< zooom src="/turbo-engine/reflection.gif" >}}
+*and compilation from the editor*
 
 ------
 

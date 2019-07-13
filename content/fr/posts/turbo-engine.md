@@ -98,10 +98,12 @@ Indiquent la physique relative à l'objet (Collider, Rigidbody…)
 
 Qui servent à donner un comportement à l’objet.
 
-{{< zooom src="/turbo-engine/types.png" >}}
-*Les 4 cavaliers de l'apocalypse*
+{{< zooom src="/turbo-engine/scripts.gif" >}}
 
 Certains composants de base existent dans le moteur, mais un imposant système de réflexion permet à l’utilisateur de créer ses propres composants en c++ et de compiler et recharger ces scripts directement depuis l'éditeur.
+
+{{< zooom src="/turbo-engine/reflection.gif" >}}
+*compilation depuis l'editeur*
 
 ------
 
