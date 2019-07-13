@@ -13,7 +13,7 @@ is the second-year's end project that we realized.
 
 The goal of this one was to make a game engine with an editor and use them to create a puzzle game.
 
-The choices of technologies used in our project were free.
+The technologies used were free for us to choose.
 
 {{< youtube foICXHojFiI >}}
 
@@ -87,7 +87,7 @@ Do not contain logic. They only serve to store data (for example, Transform)
 
 - The "Render" components
 
-define everything that will be visual to the entity (mesh, renderer, light ...)
+define everything that will be visual to the entity (mesh renderer, light ...)
 
 - The "Physic" components
 
@@ -100,7 +100,7 @@ Which serve to give a behavior to the object.
 {{< zooom src="/turbo-engine/types.png" >}}
 *The 4 horsemen of apocalypse*
 
-Some basic components exist in the engine, but an awesome thinking system allows the user to create their own components in C ++ and compile and reload those scripts directly from the editor.
+Some basic components exist in the engine, but an complete reflection system allows the user to create its own components in C ++ and compile and reload those scripts directly from the editor.
 
 ------
 

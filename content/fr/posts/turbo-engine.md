@@ -88,7 +88,7 @@ Ne contiennent pas de logique. Ils ne servent qu'à stocker des données (par ex
 
 - Les composants "Render"
 
-définissent tout ce qui sera visuel à l'entité (mesh, renderer, light...)
+définissent tout ce qui sera visuel à l'entité (mesh renderer, light...)
 
 - Les composants "Physic"
 
