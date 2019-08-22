@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://cfazilleau.netlify.com/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 15
