@@ -1,16 +1,16 @@
 ---
 title: "Turbo Engine"
-date: 2019-06-06
+date: 2019-06-20
 author: "Clément Fazilleau"
 draft: false
 categories: [ "Project" ]
 tags: []
-description: turbo Engine
+description: un moteur de jeux 3D...
 ---
 
 ## TurboEngine
 
-est le projet de fin de deuxième année que nous avons réalisé.
+est le projet de fin de deuxième année que j'ai réalisé avec 3 autres programmeurs.
 
 Le but de ce dernier était de réaliser un moteur de jeu avec éditeur et de l’utiliser afin de créer un jeu de puzzle.
 
@@ -107,4 +107,4 @@ Certains composants de base existent dans le moteur, mais un imposant système d
 
 ------
 
-<div align="center">by Gregoire PENON, Basile COMBET, Julien SOYSOUVANH and Clément FAZILLEAU</div>
+<div align="center">Un projet par Gregoire PENON, Basile COMBET, Julien SOYSOUVANH and Clément FAZILLEAU</div>

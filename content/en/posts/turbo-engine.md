@@ -1,15 +1,15 @@
 ---
 title: "Turbo Engine"
-date: 2019-06-06
+date: 2019-06-20
 author: "Clément Fazilleau"
 draft: false
 categories: [ "Project" ]
 tags: []
-description: turbo Engine
+description: a 3D game engine...
 ---
 ## TurboEngine
 
-is the second-year's end project that we realized.
+is the second-year's end project that I realized in a team of 4.
 
 The goal of this one was to make a game engine with an editor and use them to create a puzzle game.
 
@@ -75,6 +75,7 @@ To create and edit materials
 To manage the physical parameters of the project (fixed time, physic channels ...)
 
 {{< zooom src="/turbo-engine/physic.gif" >}}
+
 *What have I done...*
 
 ### Components
@@ -102,8 +103,9 @@ Which are used to give a behavior to the object.
 Some basic components exist in the engine, but a complete reflection system allows the user to create its own components in C++ and compile and reload those scripts directly from the editor.
 
 {{< zooom src="/turbo-engine/reflection.gif" >}}
+
 *and compilation from the editor*
 
 ------
 
-<div align="center">by Gregoire PENON, Basile COMBET, Julien SOYSOUVANH and Clément FAZILLEAU</div>
+<div align="center">A project by Gregoire PENON, Basile COMBET, Julien SOYSOUVANH and Clément FAZILLEAU</div>

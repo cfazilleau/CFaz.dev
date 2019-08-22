@@ -26,10 +26,10 @@ paginate = 15
     url = "https://cfazilleau.itch.io/"
   [params.social.linkedin]
     name = "linkedin"
-    url = "www.linkedin.com/in/clement-f"
+    url = "https://www.linkedin.com/in/clement-f"
   [params.social.mail]
     name = "mail"
-    url = "mailto:faz.cle@gmail.com"
+    url = "https://mailto:faz.cle@gmail.com"
 
 [languages]
   [languages.en]
