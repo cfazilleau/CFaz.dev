@@ -1,8 +1,9 @@
 ---
-title: "Clément Fazilleau"
+title: "Bienvenue"
 ---
 
 {{< figure src="https://www.gravatar.com/avatar/14d1a6793c5a25776bcb778d6804e666?s=400" >}}
+
 ### Bonjour, je m'appelle Clément Fazilleau et bienvenue sur mon site!
 
 Je suis étudiant en programmation de jeux chez {{< newtab href="https://www.isartdigital.com/fr/ecole/edito-presentation/" text="ISART Digital Paris">}}.
