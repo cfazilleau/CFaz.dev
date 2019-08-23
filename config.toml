@@ -5,6 +5,7 @@ paginate = 15
 enableRobotsTXT = true
 
 #https://github.com/panr/hugo-theme-hello-friend/
+#https://github.com/tomik23/zooom.js/
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -15,6 +16,10 @@ enableRobotsTXT = true
   showMenuItems = 4
   # Show reading time in minutes for posts
   showReadingTime = false
+  # google search console verification code
+  googleVerificationCode = "cCFejK_e3MFSd-nynTCFKkawPutzEJYCJ4Y3hmLg38w"
+  # google analytics code
+  googleAnalyticsCode = "UA-146410600-1"
 
   [params.social.github]
     name = "github"
@@ -36,9 +41,9 @@ enableRobotsTXT = true
   [languages.en]
     languageName = "English" 
     contentDir = "content/en"
-    title = "CFazilleau"
+    title = "Clément Fazilleau"
     subtitle = "A simple blog for my projects"
-    keywords = ""
+    keywords = "Clement Fazilleau, Clement, Fazilleau, Blog, Developper, Site, Website, Projects, Code, Games, Programming"
     copyright = "Clément Fazilleau"
     menuMore = "Show more"
     writtenBy = "Written by"
@@ -67,16 +72,16 @@ enableRobotsTXT = true
   [languages.fr]
     languageName = "Francais"
     contentDir = "content/fr"
-    title = "CFazilleau"
-    subtitle = "A simple blog for my projects"
-    keywords = ""
+    title = "Clément Fazilleau"
+    subtitle = "Un simple blog pour mes projets"
+    keywords = "Clement Fazilleau, Clement, Fazilleau, Blog, Developpeur, Site, Website, Projets, Code, Jeux Video, Jeu Video, Programmation"
     copyright = "Clément Fazilleau"
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
+    menuMore = "Voir plus"
+    writtenBy = "Rédigé par"
+    readMore = "Lire la suite"
+    readOtherPosts = "Lire d'autres posts"
+    newerPosts = "Posts plus récents"
+    olderPosts = "Posts plus anciens"
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"

@@ -2,7 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
 <meta name="keywords" content="{{ $.Site.Params.keywords }}"/>
-<meta name="google-site-verification" content="cCFejK_e3MFSd-nynTCFKkawPutzEJYCJ4Y3hmLg38w"/>
+{{ if .Site.Params.googleVerificationCode }}
+<meta name="google-site-verification" content="{{ $.Site.Params.googleVerificationCode }}"/>
+{{ end }}
 <link rel="canonical" href="{{ .Permalink }}" />
 
 <!-- Theme CSS -->
