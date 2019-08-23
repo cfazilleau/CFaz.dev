@@ -16,9 +16,9 @@ enableRobotsTXT = true
   # Show reading time in minutes for posts
   showReadingTime = false
 
-  #[params.social.github]
-  #  name = "github"
-  #  url = "test"
+  [params.social.github]
+    name = "github"
+    url = "https://github.com/cfazilleau"
   #[params.social.gitlab]
   #  name = "gitlab"
   #  url = "test"
@@ -30,7 +30,7 @@ enableRobotsTXT = true
     url = "https://www.linkedin.com/in/clement-f"
   [params.social.mail]
     name = "mail"
-    url = "https://mailto:faz.cle@gmail.com"
+    url = "mailto:faz.cle@gmail.com"
 
 [languages]
   [languages.en]
