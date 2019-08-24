@@ -32,3 +32,6 @@ mais nous avons fini par développer des fonctionnalités supplémentaires:
 - et beaucoup plus...
 
 {{< zooom src="/drift-carz/server.png" >}}
+------------------
+
+<div align = "center"> Un projet par by Julien SOYSOUVANH et Clément FAZILLEAU </div>

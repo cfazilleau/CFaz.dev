@@ -32,3 +32,6 @@ but we ended up developping optionnal features as well:
 - and much more...
 
 {{< zooom src="/drift-carz/server.png" >}}
+---------------
+
+<div align = "center"> A project by Julien SOYSOUVANH and Clément FAZILLEAU </div>
