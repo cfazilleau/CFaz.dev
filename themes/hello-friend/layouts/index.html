@@ -1,6 +1,6 @@
 {{ define "main" }}
     <main aria-role="main">
-        <div class="index">
+        <div class="post" style="text-align:center">
             {{ with .Site.GetPage "homepage" }}
                 <h1>{{ .Title }}</h1>
                 {{ .Content }}
