@@ -17,3 +17,7 @@ Stellar pulse est un jeu de tir / rythme en VR dans lequel le joueur contrôle 2
 Stellar Pulse a été récompensé par deux prix (Prix du Gameplay et Prix du Jury) parmi 4 distribués (les deux autres étaient le prix technique et le prix de l’originalité) lors d’une journée de présentation aupres d'un jury composé de nos professeurs et de professionnels de l'industrie du jeu video.
 
 {{< image src = "/stellar-pulse/award.png" >}}
+------------------
+
+<div align = "center"> Un projet par by Julien SOYSOUVANH, Basile Combet et Clément FAZILLEAU </div>
+<div align = "center"> Designé par Thibaut Bégué, Maxime Husson, Paul Muller et Victor Wathier </div>

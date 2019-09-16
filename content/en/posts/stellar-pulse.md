@@ -17,3 +17,7 @@ Stellar pulse is a shooter/rythm game in VR where the player control 2 starships
 Stellar Pulse was awarded two prizes (Gameplay Award and Jury Prize) among four distributed (the two others being the technical prize and the originality prize) during a presentation day with a jury composed of our teachers and professionals from the video game industry.
 
 {{< image src = "/stellar-pulse/award.png" >}}
+---------------
+
+<div align = "center"> A project by Julien SOYSOUVANH, Basile Combet and Clément FAZILLEAU </div>
+<div align = "center"> Designed by Thibaut Bégué, Maxime Husson, Paul Muller and Victor Wathier </div>
