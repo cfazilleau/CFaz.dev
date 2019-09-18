@@ -10,6 +10,6 @@ I am a student in game programming at {{< newtab href="https://www.isart.com/en/
 
 Passionate about programming and video games since my childhood, I always wanted to work in this domain.
 
-On this site, you can find information about my game and programming projects.
+On this site, you can find informations about my game and programming projects.
 
 ### Do not hesitate to contact me!

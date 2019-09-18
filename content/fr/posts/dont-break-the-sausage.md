@@ -10,7 +10,7 @@ description: dont-break-the-sausage
 
 ## Don't Break The Sausage
 
-est un jeu que j'ai créé a l'occasion de la "game week" de mon école.
+est un jeu que j'ai créé à l'occasion de la "game week" de mon école.
 
 J'étais dans une équipe composée de 2 programmeurs, 1 game designers, 3 artistes et 2 sound designers.
 
