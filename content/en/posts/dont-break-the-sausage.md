@@ -27,6 +27,6 @@ this technique I used is working well, but there is also other options, like usi
 
 {{< zooom src="/dont-break-the-sausage/sidebyside.png" >}}
 
-Don't break the sausage was awarded the Creativity prize at the end of the week, and has been offered the opportunity to be published by webedia games.
+Don't break the sausage was awarded the Originality prize at the end of the week, and has been offered the opportunity to be published by webedia games.
 
 {{< image src = "/dont-break-the-sausage/award.png" >}}

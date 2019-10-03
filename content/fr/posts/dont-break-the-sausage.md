@@ -27,6 +27,6 @@ Cette technique que j'ai utilisé fonctionne bien, mais il existe d'autres optio
 
 {{< zooom src="/dont-break-the-sausage/sidebyside.png" >}}
 
-Don't break the sausage a reçu le prix de la Créativité à la fin de la semaine et s'est vu offrir la possibilité d'être publié par Webedia games.
+Don't break the sausage a reçu le prix de l'originalité à la fin de la semaine et s'est vu offrir la possibilité d'être publié par Webedia games.
 
 {{< image src = "/dont-break-the-sausage/award.png" >}}
