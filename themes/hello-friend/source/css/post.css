@@ -53,6 +53,15 @@
 
     a {
       text-decoration: none;
+      padding: 3px 5px;
+      border-radius: 10px;
+      background-color: var(--light-color);
+      color: var(--light-background);
+      
+      .dark-theme &{
+        background-color: var(--dark-color);
+        color: var(--dark-background);
+      }
     }
   }
 
