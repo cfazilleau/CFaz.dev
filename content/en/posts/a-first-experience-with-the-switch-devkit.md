@@ -35,7 +35,7 @@ These are the controllers of the switch. With the possibility of connecting up t
 
 - The Lightweight render pipeline.
 
-This is a preview package that appeared with the 2019 version.1 of unity, it was created to obtain more performance than the classic rendering pipeline on platforms such as mobiles or machines. weak configuration. We made this choice based on the performance offered by the console, close to that of a high-end smartphone.
+This is a preview package that appeared with the 2019 version.1 of unity, it was created to obtain more performance than the classic rendering pipeline on platforms such as mobiles. weak configuration. We made this choice based on the performance offered by the console, close to that of a high-end smartphone.
 
 - The "Input System" package.
 
