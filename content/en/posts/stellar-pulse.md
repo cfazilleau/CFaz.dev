@@ -5,12 +5,12 @@ author: "Clément Fazilleau"
 draft: false
 categories: [ "Project" ]
 tags: ["VR", "Unreal"]
-description: a VR rythm game in space...
+description: a VR rhythm game in space...
 ---
 
 Stellar Pulse is a game created as a second year student project in ISART Digital. It was created in 4 weeks by a team of 3 programmers and 4 game designers using __Unreal Engine 4__.
 
-Stellar pulse is a shooter/rythm game in VR where the player control 2 starships with his hands. the goal is to complete the level by killing ennemies, avoiding obstacles, and passing through rings.
+Stellar pulse is a shooter/rhythm game in VR where the player control 2 starships with his hands. the goal is to complete the level by killing ennemies, avoiding obstacles, and passing through rings.
 
 {{< youtube Kn0CMk3IwdQ >}}
 
