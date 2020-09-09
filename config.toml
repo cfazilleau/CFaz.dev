@@ -64,10 +64,10 @@ enableRobotsTXT = true
         name = "Latest posts"
         url = "/posts/"
 
-      [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/categories/project/"
+      #[[languages.en.menu.main]]
+      #  identifier = "projects"
+      #  name = "Projects"
+      #  url = "/categories/project/"
 
   [languages.fr]
     languageName = "Francais"
@@ -95,7 +95,7 @@ enableRobotsTXT = true
         name = "Derniers posts"
         url = "/fr/posts/"
 
-      [[languages.fr.menu.main]]
-        identifier = "projects"
-        name = "Projets"
-        url = "/fr/categories/project/"
+      #[[languages.fr.menu.main]]
+      #  identifier = "projects"
+      #  name = "Projets"
+      #  url = "/fr/categories/project/"

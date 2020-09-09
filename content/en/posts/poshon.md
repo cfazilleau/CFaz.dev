@@ -8,7 +8,7 @@ tags: [ game ]
 description: A switch game created during a R&D (Research and Development) project.
 ---
 
-Poshon is a multiplayer couch game created during a R&D project by me and my friend Julien Soysouvanh.
+Poshon is a multiplayer couch game created during a R&D project by my friend Julien Soysouvanh and myself.
 This post will be especially about the game in itself, but if you want more informations about the devlopment process, you can read my article about [a first experience with the switch devkit](/posts/a-first-experience-with-the-switch-devkit).
 
 ## The game
