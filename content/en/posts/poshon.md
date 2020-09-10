@@ -50,3 +50,4 @@ On the map selection menu, you can join up to 8 players to help you in the makin
 we created 4 maps, the first is a training one, where you can make an infinite number of potions in an infinite amount of time (27 days). The second map is a simple one, for 1 to 8 players. the third one is a map splitted in two where you have to be at least two players (one on each side) and you can share potions by passing them on the conveyor belts and over the tables. the last map is a 4 players minimum map, which is divided into 4 "cells" in order to share potions, you have to drop them on the conveyor belt.
 
 {{< zooom src="/poshon/Maps.png" >}}
+{{<center text="A project by Julien SOYSOUVANH and Clément FAZILLEAU">}}

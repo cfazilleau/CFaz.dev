@@ -37,6 +37,9 @@ enableRobotsTXT = true
     name = "mail"
     url = "mailto:faz.cle@gmail.com"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [languages]
   [languages.en]
     languageName = "English" 

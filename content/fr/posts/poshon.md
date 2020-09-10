@@ -9,7 +9,7 @@ description: A switch game created during a R&D (Research and Development) proje
 ---
 
 Poshon est un jeu de coopération en multijoueur local créé lors d'un projet de R&D par mon ami Julien Soysouvanh et moi même.
-Cet article portera surtout sur le jeu en lui-même, mais si vous souhaitez plus d'informations sur le processus de développement, vous pouvez lire mon article sur [une première expérience avec le devkit switch] (/posts/a-first-experience-with-the-switch-devkit).
+Cet article portera surtout sur le jeu en lui-même, mais si vous souhaitez plus d'informations sur le processus de développement, vous pouvez lire mon article sur [une première expérience avec le devkit switch] (/fr/posts/a-first-experience-with-the-switch-devkit).
 
 ## Le jeu
 
@@ -50,4 +50,4 @@ Dans le menu de sélection de la carte, vous pouvez ajouter jusqu'à 8 joueurs.
 nous avons créé 4 maps, la première est une carte d'entraînement, où vous pouvez faire un nombre infini de potions en un temps infini. La deuxième carte est simple, pour 1 à 8 joueurs. la troisième est une carte divisée en deux où vous devez être au moins deux joueurs (un de chaque côté) et vous pouvez vous partager des potions en les posant sur des tapis roulants et sur les tables. la dernière carte est une carte de minimum 4 joueurs, qui est divisée en 4 "cellules". afin de partager des potions, vous devez les déposer sur le tapis roulant.
 
 {{<zooom src = "/poshon/Maps.png">}}
-
+{{<center text="Un projet par Julien SOYSOUVANH et Clément FAZILLEAU">}}
