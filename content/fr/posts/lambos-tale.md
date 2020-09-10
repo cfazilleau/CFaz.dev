@@ -28,6 +28,7 @@ A la fin d'un niveau, on trouvera un livre qui nous permettra de passer au suiva
 ## Spécificités techniques
 
 Le jeu a été développé sur Unity 2019.3.7f1, ce qui nous a permis d'utiliser des fonctionnalités spécifiques (notamment à la 2D), telles que:
+
 - **Universal Render Pipeline** qui nous a permis de créer des shaders en utilisant le Shader Graph, qui s'est trouvé plutôt utile pour créer ce type de rendu mixte entre 2D et 3D.
 - **2D Collisions**, bien que le rendu soit en 3D, les collisions sont effectuées en 2D, afin de supporter les tilemaps, et d'obtenir de meilleures performances.
 - **Tilemaps 2D / Grid** qui sont utilisés par la génération procédurale afin de créer les niveaux.
