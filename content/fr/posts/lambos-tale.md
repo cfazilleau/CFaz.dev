@@ -139,6 +139,10 @@ Pour cette raison nous avons du créer un shader spécifique à la 2D, réglant 
 
 ----
 
+</br>
+<div align="center"><img src="/lambos-tale/TeamLambo.png"></img></div>
+</br>
+
 {{<center text="Programmeurs: Julien SOYSOUVANH, Philippe YI, Grégoire PENON, Clément FAZILLEAU">}}
 {{<center text="Designers: Max DROULEZ, Adrien BORDES, Grégory RUMEBE, Tony ZHANG">}}
 {{<center text="Artistes: Jade PERDRILLAT, Mélanie LHUILLIER, Salomé LYSIMAQUE CHAPUIS">}}
