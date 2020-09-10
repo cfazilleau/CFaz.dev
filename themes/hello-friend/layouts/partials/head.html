@@ -1,6 +1,6 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.Subtitle }}{{ else }}{{ .Summary | plainify }}{{ end }}"/>
+<meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ with .Description }}{{ . | plainify }}{{ end }}{{ end }}"/>
 <meta name="keywords" content="{{ $.Site.Params.keywords }}"/>
 {{ if .Site.Params.googleVerificationCode }}
 <meta name="google-site-verification" content="{{ $.Site.Params.googleVerificationCode }}"/>
@@ -16,7 +16,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}" />
+<meta name="twitter:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} - {{ $.Site.Title }}{{ end }}" />
 <meta name="twitter:description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ with .Description }}{{ . | plainify }}{{ end }}{{ end }}" />
 <meta name="twitter:site" content="{{ $.Site.BaseURL }}" />
 <meta name="twitter:creator" content="{{ .Params.Author }}" />
@@ -25,7 +25,7 @@
 <!-- OG data -->
 <meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} - {{ $.Site.Title }}{{ end }}">
 <meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ with .Description }}{{ . | plainify }}{{ end }}{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Title }}" />
