@@ -66,7 +66,7 @@ The controller also benefits from:
 - Jump buffering, allowing the player to easily perform "frame-perfect jumps"
 - Snapping, when the player hits a corner of a wall, the game will try to modify the player's trajectory in order to avoid the wall.
 
-These three features are present in the game "Celeste", which was a great source of inspiration for our project. you can find more information about these features [here] (https://twitter.com/MattThorson/status/1238338574220546049).
+These three features are present in the game "Celeste", which was a great source of inspiration for our project. you can find more information about these features [here](https://twitter.com/MattThorson/status/1238338574220546049).
 
 The different states of the controller were managed via a simple HFSM (Hierarchical Finite State Machine) pattern, using a universal transition system, in order to allow easy addition of new states.
 however, the weakness of this system is the cause of potential invalid state transition bugs, which would have been more easily avoided or fixed using another design pattern.
