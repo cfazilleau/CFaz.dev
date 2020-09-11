@@ -11,7 +11,7 @@ description: Un metroidvania 2D créé pour ma troisième année à ISART.
 ## Introduction
 
 Lambo's Tale est un jeu de plateformes en 2D implémentant des mécaniques Metroidvania. 
-Il a été créé en tant que projet de fin de deuxième année et dont la production a durée un peu plus de quatre semaines en compagnie de 3 merveilleux programmeurs, 4 formidables designers et 3 talentueuses artistes (tous les noms sont cités à la fin de l'article).
+Il a été créé en tant que projet de fin de troisième année et dont la production a durée un peu plus de quatre semaines en compagnie de 3 merveilleux programmeurs, 4 formidables designers et 3 talentueuses artistes (tous les noms sont cités à la fin de l'article).
 
 La spécificité plutôt inattendue de ce projet est le fait qu'il ait été réalisé entièrement à distance, dû au confinement lié au Covid-19. Malgré ce désagrément, une bonne communication interne au groupe ainsi que des efforts fournis par chacuns des membres de l'équipe ont permis de mener à bien ce projet.
 
@@ -56,7 +56,7 @@ Le controller du joueur nécessitait les features suivantes:
 - saut
 - wall-jump
 - wall-slide
-- dash (dans le style de "Céleste")
+- dash (dans le style de "Celeste")
 
 Afin d'avoir un ressenti agréable et permettre aux designers de "tweak" facilement les différents paramètres, les choix de technologies suivantes ont été faits:
 Le Player Controller utilise un simple Rigidbody 2D ainsi qu'un Box Collider 2D, pour pouvoir bénéficier de la physique de Unity et de sa résolution de collisions, cependant, la vélocité du joueur est entièrement calculée dans ce script pour garder un contrôle total sur tous les mouvements.
