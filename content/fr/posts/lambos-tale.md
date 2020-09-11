@@ -66,7 +66,7 @@ Le controller bénéficie aussi de:
 - Jump buffering, permettant au joueur d'effectuer facilement des "frame-perfect jumps"
 - Snapping, lorsque le joueur heurte un coin de mur, le jeu essaiera de modifier la trajectoire du joueur afin d'éviter le mur.
 
-Ces trois features sont présentes dans le jeu "Céleste", qui a été une grande source d'inspiration pour notre projet. vous pouvez trouver plus d'informations sur ces features [ici](https://twitter.com/MattThorson/status/1238338574220546049).
+Ces trois features sont présentes dans le jeu "Celeste", qui a été une grande source d'inspiration pour notre projet. vous pouvez trouver plus d'informations sur ces features [ici](https://twitter.com/MattThorson/status/1238338574220546049).
 
 Les différents états du controller étaient gérés via un pattern de HFSM (Hierarchical Finite State Machine), utilisant un système de transitions universel, dans le but de permettre d'ajouter facilement des nouveaux etats.
 cependant, la faiblesse de ce système est la cause de potentiels bugs de transitions d'états invalides, qui auraient été plus facilement évités ou réparés en utilisant un autre design pattern.
