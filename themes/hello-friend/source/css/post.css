@@ -10,11 +10,7 @@
   }
 
   &:not(:last-of-type) {
-    border-bottom: 1px solid var(--light-border-color);
-
-    .dark-theme & {
-      border-color: var(--dark-border-color);
-    }
+    border-bottom: 1px solid var(--theme-border-color);
   }
 
   &-meta {
@@ -55,13 +51,8 @@
       text-decoration: none;
       padding: 3px 5px;
       border-radius: 10px;
-      background-color: var(--light-color);
-      color: var(--light-background);
-      
-      .dark-theme &{
-        background-color: var(--dark-color);
-        color: var(--dark-background);
-      }
+      background-color: var(--theme-color);
+      color: var(--theme-background);
     }
   }
 

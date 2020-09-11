@@ -10,8 +10,6 @@ enableRobotsTXT = true
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
-  # "light" or "dark"
-  defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 4
   # Show reading time in minutes for posts

@@ -1,17 +1,21 @@
 :root {
-  /* light theme color */
-  --light-background: #fff;
-  --light-background-secondary: #eaeaea;
-  --light-color: #222;
-  --light-color-secondary: #999;
-  --light-border-color: #dcdcdc;
+  --theme-background: #fff;
+  --theme-background-header: #fafafa;
+  --theme-background-secondary: #eaeaea;
+  --theme-color: #222;
+  --theme-code: #ccc;
+  --theme-color-secondary: #999;
+  --theme-border-color: #dcdcdc;
 
-  /* dark theme colors */
-  --dark-background: #292a2d;
-  --dark-background-secondary: #3b3d42;
-  --dark-color: #a9a9b3;
-  --dark-color-secondary: #73747b;
-  --dark-border-color: #4a4b50;
+  @media (prefers-color-scheme: dark) {
+    --theme-background: #292a2d;
+    --theme-background-header: #252627;
+    --theme-background-secondary: #3b3d42;
+    --theme-color: #a9a9b3;
+    --theme-code: #222;
+    --theme-color-secondary: #73747b;
+    --theme-border-color: #4a4b50;
+  }
 
   /* variables for js, must be the same as these in @custom-media queries */
   --phoneWidth: (max-width: 684px);
