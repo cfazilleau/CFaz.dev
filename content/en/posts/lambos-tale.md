@@ -10,7 +10,7 @@ description: A 2D metroidvania created for my third year at ISART.
 
 ## Introduction
 
-Lambo's Tale is a 2D platformer implementing Metroidvania mechanics. 
+Lambo's Tale is a 2D platformer implementing Metroidvania mechanics.
 It was created as an end of third year project and lasted just over four weeks in the company of 3 very good programmers, 4 wonderful designers and 3 talented artists (all names are cited at the end of the article).
 
 The rather unexpected specificity of this project is the fact that it was carried out entirely remotely, due to the containment linked to Covid-19. Despite this inconvenience, good internal communication within the group as well as the efforts made by each member of the team made it possible to carry out this project.
@@ -62,7 +62,7 @@ In order to have a pleasant feeling and allow designers to easily tweak the vari
 The Player Controller uses a simple 2D Rigidbody as well as a 2D Box Collider, to be able to benefit from Unity's physics and collision resolution, however, the player's velocity is fully calculated in this script to keep full control over all movements.
 
 The controller also benefits from:
-- Coyote time, allowing the player to jump a few milliseconds after falling from a platform. 
+- Coyote time, allowing the player to jump a few milliseconds after falling from a platform.
 - Jump buffering, allowing the player to easily perform "frame-perfect jumps"
 - Snapping, when the player hits a corner of a wall, the game will try to modify the player's trajectory in order to avoid the wall.
 
@@ -125,7 +125,7 @@ The shop is an interactive object when the player is within range, its implement
 
 #### Procedural generation
 
-Procedural generation based on 2D Tiles involves problems which could prove to be very disabling if no solution is not found. Using 2D colliders for each tile, collision bugs can frequently appear at intersections, where the player can get stuck in the tiny space between two tiles. To work around this problem and improve performance, we can use 2D Composite colliders to "merge" several colliders together, but this involves dividing the types of colliders into layers, which is not necessarily complicated, but is an essential phase to be taken into account in the code. 
+Procedural generation based on 2D Tiles involves problems which could prove to be very disabling if no solution is not found. Using 2D colliders for each tile, collision bugs can frequently appear at intersections, where the player can get stuck in the tiny space between two tiles. To work around this problem and improve performance, we can use 2D Composite colliders to "merge" several colliders together, but this involves dividing the types of colliders into layers, which is not necessarily complicated, but is an essential phase to be taken into account in the code.
 
 #### Post-Processing
 
@@ -146,5 +146,5 @@ For this reason we had to create a 2D specific shader, fixing the 3D problems.
 
 {{<center text="Programmers: Julien SOYSOUVANH, Philippe YI, Grégoire PENON, Clément FAZILLEAU">}}
 {{<center text="Designers: Max DROULEZ, Adrien BORDES, Grégory RUMEBE, Tony ZHANG ">}}
-{{<center text=" Artists: Jade PERDRILLAT, Mélanie LHUILLIER, Salomé LYSIMAQUE CHAPUIS ">}}
+{{<center text=" Artists: Jade PERDRILLAT, Mélanie L'HUILLIER, Salomé LYSIMAQUE CHAPUIS ">}}
 
