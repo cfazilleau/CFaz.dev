@@ -26,14 +26,14 @@
         </span>
       {{ end }}
 
-      {{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}
-          <a href="{{ .Permalink }}"><img src="{{ (printf "/%s/cover.png" .File.TranslationBaseName ) }}" class="post-cover" /></a>
+      {{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}
+        <a href="{{ .Permalink }}"><img src="{{ (printf "/%s/cover.jpg" .File.TranslationBaseName ) }}" class="post-cover" /></a>
       {{ else }}
-        {{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}
-            <a href="{{ .Permalink }}"><img src="{{ (printf "/%s/cover.jpg" .File.TranslationBaseName ) }}" class="post-cover" /></a>
+        {{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}
+          <a href="{{ .Permalink }}"><img src="{{ (printf "/%s/cover.png" .File.TranslationBaseName ) }}" class="post-cover" /></a>
         {{ else }}
           {{ if (fileExists (printf "/static/%s/cover.gif" .File.TranslationBaseName )) }}
-              <a href="{{ .Permalink }}"><img src="{{ (printf "/%s/cover.gif" .File.TranslationBaseName ) }}" class="post-cover" /></a>
+            <a href="{{ .Permalink }}"><img src="{{ (printf "/%s/cover.gif" .File.TranslationBaseName ) }}" class="post-cover" /></a>
           {{ end }}
         {{ end }}
       {{ end }}
