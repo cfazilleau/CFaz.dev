@@ -7,7 +7,7 @@ tags: [ game ]
 description: A Research and Development project on the switch devkit.
 ---
 
-During my third year at ISART, I was given the opportunity to make a 2 week project using the Nintendo Switch Devkit. This is not an opportunity frequently given to students so my friend Julien and myself grabbed this opprtunity. Here is what we learned:
+During my third year at ISART, I was given the opportunity to make a 2 week project using the Nintendo Switch Devkit. This is not an opportunity frequently given to students so my friend Julien and myself grabbed this occasion. Here is what we learned:
 
 > This post is a summary of the paper we had to write about our journey with the switch devkit. As you would expect, a lot of what we learned was strictly confidential and under the protection of a NDA (Non-Disclosure Agreement) from Nintendo. If you are reading this trying to find private information about the devkit and softwares used, you won't find anything on this page. This being said, let's get into it.
 
