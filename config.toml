@@ -1,4 +1,4 @@
-baseurl = "https://cfazilleau.netlify.app/"
+ baseurl = "https://cfaz.dev/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 15
@@ -40,7 +40,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    languageName = "English" 
+    languageName = "English"
     contentDir = "content/en"
     title = "Clément Fazilleau"
     subtitle = "A simple blog for my projects"
@@ -57,7 +57,7 @@ enableRobotsTXT = true
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "CFazilleau"
+      logoText = "cfaz.dev"
       logoHomeLink = "/"
 
       [[languages.en.menu.main]]
@@ -65,10 +65,10 @@ enableRobotsTXT = true
         name = "Latest posts"
         url = "/posts/"
 
-      #[[languages.en.menu.main]]
-      #  identifier = "projects"
-      #  name = "Projects"
-      #  url = "/categories/project/"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Portfolio"
+        url = "/categories/project/"
 
   [languages.fr]
     languageName = "Francais"
@@ -88,15 +88,15 @@ enableRobotsTXT = true
     dateFormatList = "2006-01-02"
 
     [languages.fr.params.logo]
-      logoText = "CFazilleau"
+      logoText = "cfaz.dev"
       logoHomeLink = "/fr/"
 
       [[languages.fr.menu.main]]
         identifier = "posts"
-        name = "Derniers posts"
+        name = "Derniers articles"
         url = "/fr/posts/"
 
-      #[[languages.fr.menu.main]]
-      #  identifier = "projects"
-      #  name = "Projets"
-      #  url = "/fr/categories/project/"
+      [[languages.fr.menu.main]]
+        identifier = "projects"
+        name = "Portfolio"
+        url = "/fr/categories/project/"

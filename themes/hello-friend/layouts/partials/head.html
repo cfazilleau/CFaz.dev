@@ -22,6 +22,7 @@
 <meta name="twitter:site" content="{{ $.Site.BaseURL }}" />
 <meta name="twitter:creator" content="{{ .Params.Author }}" />
 <meta name="twitter:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.jpg" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.png" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.gif" .File.TranslationBaseName | absURL ) }}{{ end }}{{ end }}{{ end }}">
+<meta name="test" content="{{ .Title }}"/>
 
 <!-- OG data -->
 <meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
