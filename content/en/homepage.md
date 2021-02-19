@@ -1,7 +1,7 @@
 ---
 ---
 
-<div class="container" style="flex-direction:row; flex-wrap:wrap; justify-content:flex-start; margin-top:-80px" display="flex">
+<div class="container" style="flex-direction:row; flex-wrap:wrap; justify-content:flex-start" display="flex">
 	<img class="item" style="border-radius:50%; width:30%" src="https://www.gravatar.com/avatar/14d1a6793c5a25776bcb778d6804e666?s=400" />
 	<div class="item container" style="flex:flex-grow; align-items:stretch;">
 		<h1 style="text-align:left; margin-bottom:10px">Clément Fazilleau</h1>

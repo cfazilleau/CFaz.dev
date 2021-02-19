@@ -16,7 +16,7 @@
   &-meta {
     font-size: 1rem;
     margin-bottom: 10px;
-    display: flex; 
+    display: flex;
     flex-direction: row;
 
     @media (--phone) {
@@ -94,4 +94,10 @@
       margin-bottom: 20px;
     }
   }
+}
+
+.homepage {
+  margin-top:0px;
+  padding-top: 0px;
+  padding-bottom: 50px;
 }
