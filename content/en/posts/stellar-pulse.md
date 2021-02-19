@@ -4,7 +4,7 @@ date: 2019-03-26
 author: "Clément Fazilleau"
 draft: false
 categories: [ "Project" ]
-tags: ["VR", "Unreal"]
+tags: [ game, "VR", "Unreal" ]
 description: a VR rhythm game in space...
 ---
 

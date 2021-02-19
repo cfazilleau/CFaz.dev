@@ -4,7 +4,7 @@ date: 2020-06-02
 author: "Clément Fazilleau"
 draft: false
 categories: ["Project"]
-tags: [game]
+tags: [ game, unity ]
 description: A 2D metroidvania created for my third year at ISART.
 ---
 

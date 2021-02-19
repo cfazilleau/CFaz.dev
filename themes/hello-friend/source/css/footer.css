@@ -1,7 +1,18 @@
 .footer {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+
   padding: 40px 20px;
   flex-grow: 0;
   color: var(--theme-color-secondary);
+
+  /* TODO: FIX tablet footer height */
+  @media (--tablet) {
+    height: 150px;
+  }
 
   &__inner {
     display: flex;

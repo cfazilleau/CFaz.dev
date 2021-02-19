@@ -4,7 +4,7 @@ date: 2016-04-24
 author: "Clément Fazilleau"
 draft: true
 categories: [ "Project" ]
-tags: [ game, jam ]
+tags: [ game, jam, unity ]
 description: The first game I made.
 ---
 
@@ -22,7 +22,7 @@ This was quite challenging, especially because I never really used unity before,
 
 -------------
 
-In this game you'll play as a wizard in a temple, and waves of characters will come from the right of your screen. 
+In this game you'll play as a wizard in a temple, and waves of characters will come from the right of your screen.
 You'll have to either kill them (if they're enemies) or heal them (if they're your friends).
 Each action you take will increase or decrease your life bar.
 

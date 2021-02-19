@@ -1,15 +1,38 @@
 ---
-title: "Welcome"
 ---
 
-{{< figure src="https://www.gravatar.com/avatar/14d1a6793c5a25776bcb778d6804e666?s=400" >}}
+<div class="container" style="flex-direction:row; flex-wrap:wrap; justify-content:flex-start; margin-top:-80px" display="flex">
+	<img class="item" style="border-radius:50%; width:30%" src="https://www.gravatar.com/avatar/14d1a6793c5a25776bcb778d6804e666?s=400" />
+	<div class="item container" style="flex:flex-grow; align-items:stretch;">
+		<h1 style="text-align:left; margin-bottom:10px">Clément Fazilleau</h1>
+		<h2 style="text-align:left; margin-top:10px">🔥 Game Programmer</h2>
+	</div>
+</div>
 
-### Hello, my name is Clément Fazilleau and welcome to my site!
+</br>
 
-I am a student in game programming at {{< newtab href="https://www.isart.com/en/school/editorial-presentation/" text="ISART Digital Paris">}}.
+## My Skills:
 
-Passionate about programming and video games since my childhood, I always wanted to work in this domain.
+- ### [Professional Unity 2019+](/tags/unity/)
+  - C# Scripting
+  - Modern Unity Packages (Input System, Universal Render Pipeline...)
+  - UnityEditor Extensions (Custom editor using Handles, EditorWindows...)
+  - Optimization (Memory, Shaders, GPU oriented)
 
-On this site, you can find informations about my game and programming projects.
+- ### [Professional Unreal Engine 4](/tags/unreal/)
+  - Blueprint and C++ scripting
+  - Shader programming
 
-### Do not hesitate to contact me!
+- ### More generally
+  - [Nintendo Switch Devkit](/tags/switch/)
+  - [VR Platforms (Oculus Rift, Quest)](/tags/vr/)
+  - [Mobile platforms](/tags/mobile)
+
+- ### But also
+  - [C / C++ Programming](/tags/c++/)
+  - [Tools Development](/tags/tools/)
+  - [Game engine Development](/tags/engine/)
+  - OpenGL
+  - SDL2
+  - SFML
+  - Qt

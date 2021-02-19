@@ -4,7 +4,7 @@ date: 2020-03-15
 author: "Clément Fazilleau"
 draft: false
 categories: [ "Project" ]
-tags: [ game ]
+tags: [ game, unity, switch ]
 description: A switch game created during a R&D (Research and Development) project.
 ---
 

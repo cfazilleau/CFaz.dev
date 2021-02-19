@@ -1,5 +1,12 @@
 <footer class="footer">
   <div class="footer__inner">
+
+    {{ with .Site.Params.social }}
+    <div>
+      {{ partial "social-icons.html" . }}
+    </div>
+    {{end}}
+
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">© {{ now.Year }} - {{ $.Site.Copyright | safeHTML }}</div>
     {{ else }}
@@ -9,6 +16,7 @@
         <span>Theme created by <a href="https://twitter.com/panr">panr</a></span>
       </div>
     {{ end }}
+
     {{ if .IsTranslated }}
       {{ range .Translations }}
         <a href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</a>

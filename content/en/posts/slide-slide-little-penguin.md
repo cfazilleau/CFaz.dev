@@ -4,7 +4,7 @@ date: 2019-05-19
 author: "Clément Fazilleau"
 draft: false
 categories: [ "Project" ]
-tags: ["Mobile", "Unity"]
+tags: [ game, "Mobile", "Unity" ]
 description: A small mobile game made as a math project...
 ---
 

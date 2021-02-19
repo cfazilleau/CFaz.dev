@@ -3,8 +3,8 @@ title: "Fasobe Tournament"
 date: 2018-06-20
 author: "Clément Fazilleau"
 draft: true
-categories: [ "Project" ]
-tags: []
+categories: [ "Project", "Engine" ]
+tags: [ game, engine ]
 description: fasobe-tournament
 ---
 
