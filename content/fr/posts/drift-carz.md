@@ -3,8 +3,8 @@ title: "Drift Carz"
 date: 2018-12-19
 author: "Clément Fazilleau"
 draft: false
-categories: [ "Project" ]
-tags: ["Multiplayer", "Unity"]
+categories: [ Project ]
+tags: [ Multiplayer, Unity ]
 description: Un jeu d'arcade multijoueur...
 ---
 

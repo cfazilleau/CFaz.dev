@@ -3,8 +3,8 @@ title: "Slide Slide Little Penguin!"
 date: 2019-05-19
 author: "Clément Fazilleau"
 draft: false
-categories: [ "Project" ]
-tags: [ game, "Mobile", "Unity" ]
+categories: [ Project ]
+tags: [ Game, Mobile, Unity ]
 description: Un petit jeu mobile conçu comme un projet mathématique...
 ---
 

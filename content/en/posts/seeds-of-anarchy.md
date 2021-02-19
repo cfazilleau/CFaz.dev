@@ -3,8 +3,8 @@ title: "Seeds of Anarchy"
 date: 2018-05-26
 author: "Clément Fazilleau"
 draft: true
-categories: [ "Project" ]
-tags: [ game, unity ]
+categories: [ Project ]
+tags: [ Game, Unity ]
 description: seeds-of-anarchy
 ---
 

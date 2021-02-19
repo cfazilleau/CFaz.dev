@@ -3,8 +3,8 @@ title: "Stellar Pulse"
 date: 2019-03-26
 author: "Clément Fazilleau"
 draft: false
-categories: [ "Project" ]
-tags: [ game, "VR", "Unreal" ]
+categories: [ Project ]
+tags: [ Game, VR, Unreal ]
 description: un jeu de rythme en VR dans l'espace...
 ---
 

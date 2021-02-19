@@ -3,8 +3,8 @@ title: "Don't Break The Sausage"
 date: 2019-09-16T12:47:45+02:00
 author: "Clément Fazilleau"
 draft: false
-categories: ["Project"]
-tags: ["Mobile", "Unity", "Jam"]
+categories: [ Project ]
+tags: [ Mobile, Unity, Jam ]
 description: Un jeu mobile fait en une semaine.
 ---
 

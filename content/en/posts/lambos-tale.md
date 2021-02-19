@@ -3,8 +3,8 @@ title: "Lambo's Tale"
 date: 2020-06-02
 author: "Clément Fazilleau"
 draft: false
-categories: ["Project"]
-tags: [ game, unity ]
+categories: [ Project ]
+tags: [ Game, Unity ]
 description: A 2D metroidvania created for my third year at ISART.
 ---
 

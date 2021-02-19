@@ -3,7 +3,7 @@ title: "Une première expérience avec le devkit switch"
 date: 2020-03-15
 author: "Clément Fazilleau"
 draft: false
-tags: [ game, switch ]
+tags: [ Game, Switch ]
 description: Un projet de recherche et développement sur le devkit de la switch.
 ---
 

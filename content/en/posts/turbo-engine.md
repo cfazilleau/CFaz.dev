@@ -3,8 +3,8 @@ title: "Turbo Engine"
 date: 2019-06-20
 author: "Clément Fazilleau"
 draft: false
-categories: [ "Project" ]
-tags: [ "C++", tools, engine]
+categories: [ Project ]
+tags: [ C++, Tools, Engine ]
 description: a 3D game engine...
 ---
 ## TurboEngine

@@ -3,8 +3,8 @@ title: "Poshon"
 date: 2020-03-15
 author: "Clément Fazilleau"
 draft: false
-categories: [ "Project" ]
-tags: [ game, unity, switch ]
+categories: [ Project ]
+tags: [ Game, Unity, Switch ]
 description: A switch game created during a R&D (Research and Development) project.
 ---
 

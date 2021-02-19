@@ -3,8 +3,8 @@ title: "Heal Or Kill"
 date: 2016-04-24
 author: "Clément Fazilleau"
 draft: true
-categories: [ "Project" ]
-tags: [ game, jam, unity ]
+categories: [ Project ]
+tags: [ Game, Jam, Unity ]
 description: The first game I made.
 ---
 
