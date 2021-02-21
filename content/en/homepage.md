@@ -22,6 +22,8 @@
 - ### [Professional Unreal Engine 4](/tags/unreal/)
   - Blueprint and C++ scripting
   - Shader programming
+  - AI Programming
+  - Tool creation (Editor extension)
 
 - ### More generally
   - [Nintendo Switch Devkit](/tags/switch/)

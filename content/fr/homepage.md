@@ -22,6 +22,8 @@
 - ### [Unreal Engine 4 Professionnel](/fr/tags/unreal/)
   - Blueprint et Scripting C++
   - Programmation de shaders
+  - Programmation IA
+  - Création d'outils (Editor)
 
 - ### Plus Globalement
   - [Devkit Nintendo Switch](/fr/tags/switch/)
