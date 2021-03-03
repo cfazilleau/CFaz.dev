@@ -2,4 +2,4 @@
 
 the source code of my hugo static website
 
-currently hosted at [cfazilleau.netlify.app](https://cfaz.dev)
+currently hosted at [cfaz.dev](https://cfaz.dev)
