@@ -11,7 +11,7 @@ description: A 2D metroidvania created for my third year at ISART.
 ## Introduction
 
 Lambo's Tale is a 2D platformer implementing Metroidvania mechanics.
-It was created as an end of third year project and lasted just over four weeks in the company of 3 very good programmers, 4 wonderful designers and 3 talented artists (all names are cited at the end of the article).
+It was created as an end of third year project in just over four weeks in the company of 3 very good programmers, 4 wonderful designers and 3 talented artists (all names are cited at the end of the article).
 
 <div align="center"><iframe frameborder="0" src="https://itch.io/embed/760286?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="552" height="167"><a href="https://cfazilleau.itch.io/lambos-tale">Lambo's Tale by cfazilleau</a></iframe></div>
 
