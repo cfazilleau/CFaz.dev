@@ -14,6 +14,7 @@
 ## Mes Compétences:
 
 - ### [Unity 2019+ Professionnel](/fr/tags/unity/)
+  - [Devkit Nintendo Switch (Programmation, Debugging, Profiling, Deployment...)](/tags/switch/)
   - Scripting C#
   - Packages Unity Modernes (Input System, Universal Render Pipeline...)
   - Extensions UnityEditor (Custom editor avec Handles, EditorWindows...)
