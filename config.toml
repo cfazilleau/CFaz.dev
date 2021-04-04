@@ -55,6 +55,7 @@ enableRobotsTXT = true
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
     dateFormatList = "2006-01-02"
+    description = "Homemade professional website. Learn about me and my different projects on Unity for Nintendo Switch, Unreal for Oculus Quest, and many more..."
 
     [languages.en.params.logo]
       logoText = "cfaz.dev"
