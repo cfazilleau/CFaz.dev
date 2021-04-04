@@ -1,4 +1,4 @@
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
+[]<meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ with .Description }}{{ . | plainify }}{{ end }}{{ end }}"/>
 <meta name="keywords" content="{{ $.Site.Params.keywords }}"/>
@@ -21,8 +21,11 @@
 <meta name="twitter:description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ with .Description }}{{ . | plainify }}{{ end }}{{ end }}" />
 <meta name="twitter:site" content="{{ $.Site.BaseURL }}" />
 <meta name="twitter:creator" content="{{ .Params.Author }}" />
+{{ if .IsHome }}
+<meta name="twitter:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" "index" )) }}{{ (printf "/%s/cover.jpg" "index" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" "index" )) }}{{ (printf "/%s/cover.png" "index" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" "index" )) }}{{ (printf "/%s/cover.gif" "index" | absURL ) }}{{ end }}{{ end }}{{ end }}">
+{{ else }}
 <meta name="twitter:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.jpg" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.png" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.gif" .File.TranslationBaseName | absURL ) }}{{ end }}{{ end }}{{ end }}">
-<meta name="test" content="{{ .Title }}"/>
+{{ end }}
 
 <!-- OG data -->
 <meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
@@ -31,7 +34,11 @@
 <meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ with .Description }}{{ . | plainify }}{{ end }}{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Title }}" />
+{{ if .IsHome }}
+<meta property="og:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" "index" )) }}{{ (printf "/%s/cover.jpg" "index" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" "index" )) }}{{ (printf "/%s/cover.png" "index" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" "index" )) }}{{ (printf "/%s/cover.gif" "index" | absURL ) }}{{ end }}{{ end }}{{ end }}">
+{{ else }}
 <meta property="og:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.jpg" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.png" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.gif" .File.TranslationBaseName | absURL ) }}{{ end }}{{ end }}{{ end }}">
+{{ end }}
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 {{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
