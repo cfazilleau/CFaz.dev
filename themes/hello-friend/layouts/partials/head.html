@@ -22,7 +22,7 @@
 <meta name="twitter:site" content="{{ $.Site.BaseURL }}" />
 <meta name="twitter:creator" content="{{ .Params.Author }}" />
 {{ if .IsHome }}
-<meta name="twitter:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" "index" )) }}{{ (printf "/%s/cover.jpg" "index" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" "index" )) }}{{ (printf "/%s/cover.png" "index" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" "index" )) }}{{ (printf "/%s/cover.gif" "index" | absURL ) }}{{ end }}{{ end }}{{ end }}">
+<meta name="twitter:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" "img" )) }}{{ (printf "/%s/cover.jpg" "img" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" "img" )) }}{{ (printf "/%s/cover.png" "img" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" "img" )) }}{{ (printf "/%s/cover.gif" "img" | absURL ) }}{{ end }}{{ end }}{{ end }}">
 {{ else }}
 <meta name="twitter:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.jpg" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.png" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.gif" .File.TranslationBaseName | absURL ) }}{{ end }}{{ end }}{{ end }}">
 {{ end }}
@@ -35,7 +35,7 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Title }}" />
 {{ if .IsHome }}
-<meta property="og:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" "index" )) }}{{ (printf "/%s/cover.jpg" "index" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" "index" )) }}{{ (printf "/%s/cover.png" "index" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" "index" )) }}{{ (printf "/%s/cover.gif" "index" | absURL ) }}{{ end }}{{ end }}{{ end }}">
+<meta property="og:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" "img" )) }}{{ (printf "/%s/cover.jpg" "img" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" "img" )) }}{{ (printf "/%s/cover.png" "img" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" "img" )) }}{{ (printf "/%s/cover.gif" "img" | absURL ) }}{{ end }}{{ end }}{{ end }}">
 {{ else }}
 <meta property="og:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.jpg" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.png" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.gif" .File.TranslationBaseName | absURL ) }}{{ end }}{{ end }}{{ end }}">
 {{ end }}
