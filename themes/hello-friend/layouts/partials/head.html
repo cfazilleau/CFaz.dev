@@ -28,18 +28,15 @@
 {{ end }}
 
 <!-- OG data -->
-<meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} - {{ $.Site.Title }}{{ end }}">
-<meta property="og:author" content="{{ with $.Site.Params.copyright }}{{ $.Site.Params.copyright }}{{ end }}" />
-<meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.subtitle }}{{ else }}{{ with .Description }}{{ . | plainify }}{{ end }}{{ end }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:site_name" content="{{ .Title }}" />
-{{ if .IsHome }}
-<meta property="og:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" "img" )) }}{{ (printf "/%s/cover.jpg" "img" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" "img" )) }}{{ (printf "/%s/cover.png" "img" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" "img" )) }}{{ (printf "/%s/cover.gif" "img" | absURL ) }}{{ end }}{{ end }}{{ end }}">
-{{ else }}
-<meta property="og:image" content="{{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.jpg" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.png" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.gif" .File.TranslationBaseName | absURL ) }}{{ end }}{{ end }}{{ end }}">
-{{ end }}
+<meta name="locale" property="og:locale" content="{{ $.Site.Language.Lang }}" />
+<meta name="type" property="og:type" content="{{ if .IsHome }}website{{ else }}{{ if .IsPage }}article{{ else }}website{{ end }}{{ end }}" />
+<meta name="title" property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} - {{ $.Site.Title }}{{ end }}">
+<meta name="author" property="og:author" content="{{ with $.Site.Params.copyright }}{{ $.Site.Params.copyright }}{{ end }}" />
+<meta name="description" property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.subtitle }}{{ else }}{{ with .Description }}{{ . | plainify }}{{ end }}{{ end }}" />
+<meta name="url" property="og:url" content="{{ .Permalink }}" />
+<meta name="site_name" property="og:site_name" content="{{ .Title }}" />
+
+<meta name="image" property="og:image" content="{{ if .IsHome }}{{ if (fileExists (printf "/static/%s/cover.jpg" "img" )) }}{{ (printf "/%s/cover.jpg" "img" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" "img" )) }}{{ (printf "/%s/cover.png" "img" | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" "img" )) }}{{ (printf "/%s/cover.gif" "img" | absURL ) }}{{ end }}{{ end }}{{ end }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.jpg" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.jpg" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.png" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.png" .File.TranslationBaseName | absURL ) }}{{ else }}{{ if (fileExists (printf "/static/%s/cover.gif" .File.TranslationBaseName )) }}{{ (printf "/%s/cover.gif" .File.TranslationBaseName | absURL ) }}{{ end }}{{ end }}{{ end }}{{ end }}">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 {{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
