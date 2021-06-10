@@ -10,18 +10,19 @@ description: My Graduation Project at Isart Digital
 
 # Postbird In Provence
 
-is a Nintendo Switch Game created as a Graduation Project at ISART Digital Paris.
+is a solo 3D Open-World Exploration game created as a Graduation Project at ISART Digital Paris.
 
-You will play as Marcel, who just arrived in montélimace, a french provencal village, to be the new postbird of the town.
+its target platform is the Nintendo Switch and we had the opportunity to work directly on the Devkit and official Nintendo SDK during the production, Targetting a release game running at 60fps on the Console.
 
-⚠ Disclaimer: this video shows the state of the game in BETA stage (5 months into development) and a lot of assets / features are still to be implemented and polished by the team.
-{{< youtube yKJ1Ls8HPyo >}}
+{{< youtube w5TUR1Obgps >}}
 
-This game also takes advantage of the joycons and their "six-axis sensors" (3 linear axis + 3 angular axis) to inspect the packages and make interactions funnier.
+Available on itch.io on June 20th.
 
-### Social links:
+<hr>
 
-- [Twitter](https://twitter.com/postbird_game/)
-- [Instagram](https://www.instagram.com/postbird_game/)
 
-⚠ As the game is still in development, this article is only a quick view of the project.
+{{<center text="Technical and Gameplay Programmers: Julien SOYSOUVANH, Clément FAZILLEAU">}}
+{{<center text="Programmers: Adrien BORDES, Colin MONGABURE, Godefroy SALOMON">}}
+{{<center text="Artists: Alice HIEN, Mélanie L'HUILLIER, Salomé LYSIMAQUE-CHAPUIS">}}
+{{<center text="Sound Designers: Kevin ENGLAND, Sophie PORET">}}
+{{<center text="Producers: Boris BODIANSKY, Steven JOUCLA">}}
