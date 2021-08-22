@@ -17,17 +17,17 @@ You can also read the article about [Poshon, the game we created during this pro
 
 We chose this research and development project in the first place for the opportunity given to us.
 
-Working on Nintendo Switch is a privilege that we are not sure we will have in the future and it was an opportunity to see and use professional tools from licensed consoles.
+Working on Nintendo Switch is a privilege we might not have in the future and it was an opportunity to see and use professional tools from licensed consoles.
 
 It was also a personal challenge since we had the objective of developing a complete game, during the only two weeks of the project.
 
-The choice of Unity as Engine was made because we wanted discovered at the same time the input system packages as well as the Universal Render Pipeline (but the version of unity being too old, we had to fall back on the Lightweight Render Pipeline). This engine also allowed us to carry out fast and simple prototyping.
+The choice of Unity as Engine was made because we wanted to discover at the same time the input system packages as well as the Universal Render Pipeline (but the version of unity being too old, we had to fall back on the Lightweight Render Pipeline). This engine also allowed us to carry out fast and simple prototyping.
 
 <img style="height:100px; margin:auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/1280px-Unity_Technologies_logo.svg.png"></img>
 
 ## Our Objectives
 
-The objective we set for this project was to develop a complete game on unity 2019 by learning and using the following functionalities:
+The objective we set for this project was to develop a complete game on unity 2019 by learning and using the following features:
 
 - The joycons.
 
