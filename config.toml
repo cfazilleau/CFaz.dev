@@ -27,10 +27,10 @@ enableRobotsTXT = true
   #  url = "test"
   [params.social.itchio]
     name = "itchio"
-    url = "https://cfazilleau.itch.io/"
+    url = "https://cfaz.itch.io/"
   [params.social.linkedin]
     name = "linkedin"
-    url = "https://www.linkedin.com/in/clement-f"
+    url = "https://www.linkedin.com/in/cfaz"
   [params.social.mail]
     name = "mail"
     url = "mailto:faz.cle@gmail.com"
