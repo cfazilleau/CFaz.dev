@@ -13,7 +13,7 @@ description: Un metroidvania 2D créé pour ma troisième année à ISART.
 Lambo's Tale est un jeu de plateformes en 2D implémentant des mécaniques Metroidvania.
 Il a été créé en tant que projet de fin de troisième année et dont la production a durée un peu plus de quatre semaines en compagnie de 3 merveilleux programmeurs, 4 formidables designers et 3 talentueuses artistes (tous les noms sont cités à la fin de l'article).
 
-<div align="center"><iframe frameborder="0" src="https://itch.io/embed/760286?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="552" height="167"><a href="https://cfaz.itch.io/lambos-tale">Lambo's Tale by cfazilleau</a></iframe></div>
+<div align="center"><iframe frameborder="0" src="https://itch.io/embed/760286?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="552" height="167"><a href="https://cfaz.itch.io/lambos-tale">Lambo's Tale</a></iframe></div>
 
 La spécificité plutôt inattendue de ce projet est le fait qu'il ait été réalisé entièrement à distance, dû au confinement lié au Covid-19. Malgré ce désagrément, une bonne communication interne au groupe ainsi que des efforts fournis par chacuns des membres de l'équipe ont permis de mener à bien ce projet.
 
@@ -142,7 +142,7 @@ Pour cette raison nous avons du créer un shader spécifique à la 2D, réglant 
 
 ----
 
-<div align="center"><iframe frameborder="0" src="https://itch.io/embed/760286?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="552" height="167"><a href="https://cfaz.itch.io/lambos-tale">Lambo's Tale by cfazilleau</a></iframe></div>
+<div align="center"><iframe frameborder="0" src="https://itch.io/embed/760286?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="552" height="167"><a href="https://cfaz.itch.io/lambos-tale">Lambo's Tale</a></iframe></div>
 
 </br>
 <div align="center"><img src="/lambos-tale/TeamLambo.png"></img></div>
