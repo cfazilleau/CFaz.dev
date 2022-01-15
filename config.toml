@@ -1,4 +1,4 @@
- baseurl = "https://cfaz.dev/"
+baseurl = "https://cfaz.dev/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 15
@@ -33,7 +33,7 @@ enableRobotsTXT = true
     url = "https://www.linkedin.com/in/cfaz"
   [params.social.mail]
     name = "mail"
-    url = "mailto:faz.cle@gmail.com"
+    url = "mailto:contact@cfaz.dev"
 
 [markup.goldmark.renderer]
   unsafe= true
