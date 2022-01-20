@@ -42,9 +42,9 @@ enableRobotsTXT = true
   [languages.en]
     languageName = "English"
     contentDir = "content/en"
-    title = "Clément Fazilleau"
+    title = "CFaz.dev"
     subtitle = "Blog & Portfolio"
-    keywords = "Clement Fazilleau, Clement, Fazilleau, Blog, Developper, Site, Website, Projects, Code, Games, Programming"
+    keywords = "CFaz, CFaz.dev, Clement Fazilleau, Clement, Fazilleau, Blog, Developer, Site, Website, Projects, Code, Games, Programming"
     copyright = "Clément Fazilleau"
     menuMore = "Show more"
     writtenBy = "Written by"
