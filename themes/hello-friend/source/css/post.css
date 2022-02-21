@@ -64,18 +64,16 @@
     border-radius: 8px;
     margin: 20px -50px;
     width: 860px;
-    max-width: 860px;
     box-shadow: 0 12px 40px rgba(0, 0, 0, .15);
 
     /* center and crop the image*/
-    height: 250px;
+    max-height: 250px;
     object-fit: cover;
     object-position: center;
 
     @media (--tablet) {
       margin: 10px 0;
       width: 100%;
-      height: 150px;
     }
   }
 }
