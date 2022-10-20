@@ -1,4 +1,4 @@
 [submodule "themes/hello-friend-cfaz"]
 	path = themes/hello-friend-cfaz
-	url = git@github.com:cfazilleau/hello-friend-cfaz.git
+	url = https://github.com/cfazilleau/hello-friend-cfaz.git
 	branch = cfaz-dev
