@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: cfaz.dev
-Token: a89e507937c5571c243102d1f5def3d506a3d18e822cf9a5887aa1b4ec673332
