@@ -1,6 +1,6 @@
 baseurl = "https://cfaz.dev/"
 languageCode = "en-us"
-theme = "hello-friend"
+theme = "hello-friend-cfaz"
 paginate = 15
 enableRobotsTXT = true
 
