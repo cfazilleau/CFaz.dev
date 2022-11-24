@@ -19,7 +19,7 @@ its target platform is the Nintendo Switch and we had the opportunity to work di
 {{< youtube StRsJDxc5Vs >}}
 
 </br></br>
-<center><iframe src="https://itch.io/embed/1060024" height="167" width="552" frameborder="0"><a href="https://isart-digital.itch.io/postbirdinprovence">Postbird in Provence 2021 by ISART DIGITAL</a></iframe></center>
+<center><iframe src="https://itch.io/embed/1060024" height="167" width="80%" frameborder="0"><a href="https://isart-digital.itch.io/postbirdinprovence">Postbird in Provence 2021 by ISART DIGITAL</a></iframe></center>
 </br>
 
 <hr>
