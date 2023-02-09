@@ -22,9 +22,9 @@ enableRobotsTXT = true
   [params.social.github]
     name = "github"
     url = "https://github.com/cfazilleau"
-  #[params.social.gitlab]
-  #  name = "gitlab"
-  #  url = "test"
+  [params.social.mastodon]
+    name = "mastodon"
+    url = "https://mastodon.gamedev.place/@cfaz"
   [params.social.itchio]
     name = "itchio"
     url = "https://cfaz.itch.io/"
