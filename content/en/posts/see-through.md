@@ -12,7 +12,7 @@ I am currently making a game.This is quite simple, It’s a stealth game where t
 What I chose was a 3D GameObject with a capsule collider, Rigidbody, Navmesh agent, etc.. AND a sprite renderer attached to him. So I am able to use a simple spritesheet for the animation system.
 The problem came when I had to make the player slightly visible through walls (because, you know, stealth game…) I had to make a shader.
 
-{{< zooom src="/see-through/see-through_01" >}}
+{{< zooom src="/see-through/see-through_01.jpg" >}}
 
 The only experience I had so far with shaders was a vertex/fragment shader for OpenGL. The Unity shaders are quite different, so I had to learn a lot of new things. And most of the shaders on the internet are for 3D projects or 2D projects, but never for a mix of both.
 
@@ -36,11 +36,11 @@ You can find more information about that [right here.](https://docs.unity3d.com/
 
 In our case, the syntax will look like this:
 
-{{< zooom src="/see-through/see-through_02" >}}
+{{< zooom src="/see-through/see-through_02.jpg" >}}
 
 We’ve got one subshader with two pass: one for the visible part of the sprite, and the other for the grey silhouette hidden by our 3D objects.
 
-{{< zooom src="/see-through/see-through_03" >}}
+{{< zooom src="/see-through/see-through_03.jpg" >}}
 
 We will also need two properties:
 
@@ -134,7 +134,7 @@ We first declare our global parameters corresponding to the properties of the sh
 
 then we declare two structs, `appdata_t` for the vertex part of the shader and `v2f` for the fragment part.
 
-{{< zooom src="/see-through/see-through_04" >}}
+{{< zooom src="/see-through/see-through_04.png" >}}
 
 ### 4. The Vertex Shader
 
@@ -187,10 +187,10 @@ For the hidden part, it's even easier, we return the `_GhostColor` processed wit
 
 And that's all, really, we're done here!
 
-{{< zooom src="/see-through/see-through_05" >}}
+{{< zooom src="/see-through/see-through_05.jpg" >}}
 
 Full Script: [https://gist.github.com/cfazilleau/3a44f3f3af19e491e0b3cabcc65054b4](https://gist.github.com/cfazilleau/3a44f3f3af19e491e0b3cabcc65054b4)
 
 ------
 
-<div align="center">A project by Gregoire PENON, Basile COMBET, Julien SOYSOUVANH and Clément FAZILLEAU</div>
+<div align="center">A shader by Clément FAZILLEAU</div>
