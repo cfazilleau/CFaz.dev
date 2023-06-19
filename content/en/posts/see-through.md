@@ -104,11 +104,11 @@ Pass
 
 `CGINGLUDE` is the *header* of all our future `CGPROGRAM` it is here to prevent us from duplicating code, it makes the code more readable.
 
-you can also see that before the second `Pass` we have `ZTest Greater` which tell the shader to apply this program to only the parts that are greater on the Z-buffer (the hidden parts) and `ZWrite Off` which will prevent our sprites to hide each others.
+you can also see that before the second `Pass` we have `ZTest Greater` which tell the shader to apply this program to only the parts that are greater on the Z-buffer (the hidden parts) and `ZWrite Off` which will prevent our sprites from hiding each others.
 
 ### 3. The Programs
 
-```
+```C
 CGINCLUDE
 #include "UnityCG.cginc"
 
@@ -145,7 +145,7 @@ v2f vert(appdata_t IN)
   v2f OUT;
   OUT.vertex      = UnityObjectToClipPos(IN.vertex);
   OUT.texcoord    = IN.texcoord;
-  OUT.color         = IN.color;
+  OUT.color       = IN.color;
   return OUT;
 }
 ENDCG
