@@ -8,7 +8,7 @@
 </br>
 
 <h1 style="text-align: center"> Hi! My Name is Clément</h1>
-<h2 style="text-align: center"> I am a French Game Developer based in Montréal.</h2>
+<h2 style="text-align: center"> I am a French Game Developer working in freelance.</h2>
 
 <center>
 On this personal website you will find articles concerning my different projects about gamedev or programming in general. If you want to contact me, feel free to use the social links at the bottom of this page, I'll be glad to answer your questions 😊.
