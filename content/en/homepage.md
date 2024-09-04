@@ -14,6 +14,13 @@
 On this personal website you will find articles concerning my different projects about gamedev or programming in general. If you want to contact me, feel free to use the social links at the bottom of this page, I'll be glad to answer your questions 😊.
 </center>
 
+</br>
+</br>
+
+<h2 style="text-align: center"> I worked for:</h2>
+
+{{< workedfor >}}
+
 <!-- // Hidden because a bit outdated and no need to showcase this
 
 ## My Skills:

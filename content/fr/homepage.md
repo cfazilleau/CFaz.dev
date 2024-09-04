@@ -12,8 +12,15 @@
 <h2 style="text-align: center"> Je suis un Game Developer Français basé à Montréal.</h2>
 
 <center>
-Sur ce site, tu pourras trouver des articles à propos de mes différents projets en gamedev ou simplement en programmation. Si tu souhaites me contacter, n'hésite pas à utiliser les liens de réseaux sociaux situés en bas de la page, ce sera un plaisir de répondre à tes questions 😊.
+Sur ce site, vous trouverez trouver des articles à propos de mes différents projets en gamedev ou simplement en programmation. Si vous souhaitez me contacter, n'hésitez pas à utiliser les liens de réseaux sociaux situés en bas de la page, ce sera un plaisir de répondre à vos questions 😊.
 </center>
+
+</br>
+</br>
+
+<h2 style="text-align: center"> J'ai travaillé avec:</h2>
+
+{{< workedfor >}}
 
 <!-- // Hidden because a bit outdated and no need to showcase this
 
