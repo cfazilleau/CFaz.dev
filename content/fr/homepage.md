@@ -9,7 +9,7 @@
 </br>
 
 <h1 style="text-align: center"> Salut ! Je m'appelle Clément</h1>
-<h2 style="text-align: center"> Je suis un Game Developer Français basé à Montréal.</h2>
+<h2 style="text-align: center"> Je suis un Game Developer Français disponible en freelance.</h2>
 
 <center>
 Sur ce site, vous trouverez trouver des articles à propos de mes différents projets en gamedev ou simplement en programmation. Si vous souhaitez me contacter, n'hésitez pas à utiliser les liens de réseaux sociaux situés en bas de la page, ce sera un plaisir de répondre à vos questions 😊.
