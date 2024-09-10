@@ -17,7 +17,7 @@ On this personal website you will find articles concerning my different projects
 </br>
 </br>
 
-<h2 style="text-align: center"> I worked for:</h2>
+<h2 style="text-align: center"> I have worked for:</h2>
 
 {{< workedfor >}}
 
