@@ -38,27 +38,27 @@ enableRobotsTXT = true
 
   [params.workedfor.u_orka]
     tooltip = "Orka Games"
-    link = "https://orkagames.com/"
-    image = "https://orkagames.com/wp-content/uploads/2024/06/ORKA_Logo_BL.png"
+    # link = "https://orkagames.com/"
+    image = "/homepage/orka.png"
   [params.workedfor.v_behaviour]
     tooltip = "Behaviour Interactive"
-    link = "https://www.bhvr.com/"
-    image = "https://www.gematsu.com/wp-content/uploads/2022/05/Company-Logo_Behaviour-Interactive-Inits-1-320x288.png"
+    # link = "https://www.bhvr.com/"
+    image = "/homepage/behaviour.png"
   [params.workedfor.w_momentfactory]
     tooltip = "Moment Factory"
-    link = "https://momentfactory.com/"
-    image = "https://avatars.githubusercontent.com/u/13907909?s=200&v=4"
+    # link = "https://momentfactory.com/"
+    image = "/homepage/moment.png"
   [params.workedfor.x_scopely]
     tooltip = "Scopely"
-    link = "https://www.scopely.com/"
-    image = "https://upload.wikimedia.org/wikipedia/commons/4/4d/Scopely_logo.png"
+    # link = "https://www.scopely.com/"
+    image = "/homepage/scopely.png"
   [params.workedfor.y_unity]
     tooltip = "Unity"
-    link = "https://www.unity.com/"
-    image = "https://upload.wikimedia.org/wikipedia/commons/c/c4/Unity_2021.svg"
+    # link = "https://www.unity.com/"
+    image = "/homepage/unity.png"
   [params.workedfor.z_tkorp]
     tooltip = "TKorp"
-    image = "https://vr.tkorp.com/img/vr.tkorp.com/tkorp-vr-large.png"
+    image = "/homepage/tkorp.png"
 
 [markup.goldmark.renderer]
   unsafe= true
